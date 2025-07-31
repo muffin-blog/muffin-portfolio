@@ -148,6 +148,14 @@ async function initializeWebsite() {
                 "client": "my-best.com"
             },
             {
+                "title": "夏の睡眠適温は26°C！朝までぐっすり眠れる快眠テクニック",
+                "url": "https://minerva-sleep.jp/blogs/worries/20250829",
+                "description": "夏の快適な睡眠環境を作るための実践的なアドバイス。室温26-27℃、湿度50-60%の重要性とエアコンの効果的な使用方法を解説",
+                "date": "2025-08-29",
+                "tags": ["夏", "睡眠", "快眠", "エアコン", "室温", "健康"],
+                "client": "Minerva Sleep"
+            },
+            {
                 "title": "朝までぐっすり！失敗しない枕の選び方完全ガイド【首・肩こり解消】",
                 "url": "https://minerva-sleep.jp/blogs/pillow/20250729",
                 "description": "首・肩こり解消のための枕選びの完全ガイド。高さ・サイズ・素材・形状・硬さの5つのポイントを詳しく解説",
