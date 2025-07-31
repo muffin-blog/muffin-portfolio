@@ -1,0 +1,113 @@
+{
+  "featured": [
+    {
+      "title": "ChatGPTを活用したSEOライティングの完全ガイド",
+      "url": "https://muffin-blog.com/chatgpt-seo-writing-guide/",
+      "description": "AI時代の新しいSEOライティング手法を実例とともに詳しく解説",
+      "date": "2025-01-15",
+      "tags": ["AI", "SEO", "ChatGPT", "ライティング", "最新技術"],
+      "category": "特集記事",
+      "readTime": "15分",
+      "featured": true
+    },
+    {
+      "title": "コンテンツマーケティング ROI を300%向上させた5つの戦略",
+      "url": "https://muffin-blog.com/content-marketing-roi-strategy/",
+      "description": "実際のクライアント事例を基に、効果的なコンテンツマーケティング戦略を公開",
+      "date": "2025-01-10",
+      "tags": ["コンテンツマーケティング", "ROI", "戦略", "事例研究"],
+      "category": "戦略・分析",
+      "readTime": "12分",
+      "featured": true
+    },
+    {
+      "title": "2025年SEOトレンド予測：AI検索時代のサバイバル術",
+      "url": "https://muffin-blog.com/seo-trends-2025-ai-era/",
+      "description": "Google SGEやBing AI Chat等、AI検索エンジンの普及に対応したSEO戦略",
+      "date": "2025-01-05",
+      "tags": ["SEO", "AI検索", "トレンド", "Google SGE", "未来予測"],
+      "category": "トレンド分析",
+      "readTime": "18分",
+      "featured": true
+    }
+  ],
+  "articles": [
+    {
+      "title": "Audibleでお金の勉強！これから貯金・節約・投資を学びたい人におすすめの書籍6選",
+      "url": "https://muffin-blog.com/audible-money-study/",
+      "description": "Audible活用・お金の勉強に関する記事",
+      "date": "2025-05-15",
+      "tags": ["Audible", "オーディオブック", "お金", "投資", "節約", "自己啓発"]
+    },
+    {
+      "title": "Audibleの休会制度を完全ガイド！メリットや注意点、退会との違いを丁寧に解説",
+      "url": "https://muffin-blog.com/audible-recess/",
+      "description": "Audibleサービス解説記事",
+      "date": "2025-06-10",
+      "tags": ["Audible", "オーディオブック", "サブスクリプション", "休会制度", "サービス解説"]
+    },
+    {
+      "title": "安心してAudibleを始めるために事前にチェック！退会・解約方法を徹底解説",
+      "url": "https://muffin-blog.com/audible-cancel/",
+      "description": "Audibleサービス解説記事",
+      "date": "2025-06-20",
+      "tags": ["Audible", "オーディオブック", "解約方法", "退会手続き", "サービス解説"]
+    },
+    {
+      "title": "世界一分かりやすいAudible（オーディブル）の始め方！アプリの使い方を完全ガイド",
+      "url": "https://muffin-blog.com/start-guide-for-audible/",
+      "description": "Audible入門ガイド記事",
+      "date": "2025-07-01",
+      "tags": ["Audible", "オーディオブック", "始め方", "アプリ使用法", "入門ガイド"]
+    },
+    {
+      "title": "「耳活で人生は変わる！」1年後の自分が楽になるたった一つの習慣",
+      "url": "https://muffin-blog.com/ears-activity/",
+      "description": "耳活・自己啓発記事",
+      "date": "2025-07-10",
+      "tags": ["耳活", "Audible", "自己啓発", "習慣化", "学習法"]
+    },
+    {
+      "title": "UQモバイルは海外でも使える！利用方法や料金について徹底解説",
+      "url": "https://my-best.com/articles/550",
+      "description": "モバイル・通信サービス記事",
+      "date": "2024-07-15",
+      "tags": ["UQモバイル", "海外利用", "国際ローミング", "格安SIM", "通信"]
+    },
+    {
+      "title": "失敗しないマットレスの選び方｜体型・悩み別に解説",
+      "url": "https://minerva-sleep.jp/blogs/mattress/20250726",
+      "description": "Minerva Sleepコラム記事",
+      "date": "2025-07-26",
+      "tags": ["マットレス", "睡眠", "健康", "寝具", "体型別"]
+    },
+    {
+      "title": "ダイエット中の停滞期を抜ける前兆サインと早く終わらせる7つのコツ",
+      "url": "https://baumclinic.jp/column/stagnationperiod-getout/",
+      "description": "ダイエット・美容コラム記事",
+      "date": "2024-07-01",
+      "tags": ["ダイエット", "停滞期", "健康", "美容", "体重管理"]
+    },
+    {
+      "title": "正しい食事制限で健康的なダイエット！リバウンドを防ぐ食事法",
+      "url": "https://baumclinic.jp/column/diet-dietaryrestrictions/",
+      "description": "ダイエット・美容コラム記事",
+      "date": "2024-06-15",
+      "tags": ["ダイエット", "食事制限", "健康", "美容", "リバウンド防止", "栄養"]
+    },
+    {
+      "title": "ちょっと食べただけですぐ太るあなたに役立つ７つの理由と４つの対策",
+      "url": "https://baumclinic.jp/column/gain-weight-quickly/",
+      "description": "ダイエット・美容コラム記事",
+      "date": "2024-06-02",
+      "tags": ["ダイエット", "体重管理", "健康", "美容", "代謝", "食事"]
+    },
+    {
+      "title": "空腹のピークを過ぎると食欲がおさまるメカニズムと体への７つの影響",
+      "url": "https://baumclinic.jp/column/hunger-toopeak/",
+      "description": "ダイエット・美容コラム記事",
+      "date": "2024-05-20",
+      "tags": ["ダイエット", "空腹", "食欲", "健康"]
+    }
+  ]
+}

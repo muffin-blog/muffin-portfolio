@@ -1,7 +1,8 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "public": true,
+  "buildCommand": "echo 'Static site - no build needed'",
+  "outputDirectory": "public",
   "headers": [
     {
       "source": "/(.*)",
