@@ -564,11 +564,81 @@ function expandArticles(type, remainingArticles, buttonContainer) {
     // Moreボタンを削除
     buttonContainer.remove();
     
-    // 残りの記事を追加
+    // 残りの記事を追加（IDを設定して後で削除できるようにする）
+    const expandedArticles = [];
     remainingArticles.forEach((article, index) => {
         const articleCard = createCard(article, index + 3); // インデックスを調整
+        articleCard.classList.add('expanded-article'); // 展開された記事にクラスを追加
         container.appendChild(articleCard);
+        expandedArticles.push(articleCard);
     });
+    
+    // Lessボタンを追加
+    const lessButton = createLessButton(type, remainingArticles, expandedArticles);
+    container.appendChild(lessButton);
+}
+
+// ===== Lessボタン作成関数 =====
+function createLessButton(type, remainingArticles, expandedArticles) {
+    const buttonContainer = document.createElement('div');
+    buttonContainer.className = 'less-button-container';
+    buttonContainer.style.cssText = `
+        grid-column: 1 / -1;
+        text-align: center;
+        margin-top: var(--spacing-lg);
+    `;
+    
+    const lessButton = document.createElement('button');
+    lessButton.className = 'less-button';
+    lessButton.textContent = 'Less';
+    lessButton.style.cssText = `
+        background: var(--secondary-color);
+        color: var(--bg-primary);
+        border: none;
+        padding: 12px 24px;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+    `;
+    
+    lessButton.addEventListener('mouseover', () => {
+        lessButton.style.background = 'var(--text-light)';
+        lessButton.style.transform = 'translateY(-2px)';
+        lessButton.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.2)';
+    });
+    
+    lessButton.addEventListener('mouseout', () => {
+        lessButton.style.background = 'var(--secondary-color)';
+        lessButton.style.transform = 'translateY(0)';
+        lessButton.style.boxShadow = 'none';
+    });
+    
+    lessButton.addEventListener('click', () => {
+        collapseArticles(type, remainingArticles, expandedArticles, buttonContainer);
+    });
+    
+    buttonContainer.appendChild(lessButton);
+    return buttonContainer;
+}
+
+// ===== 記事折りたたみ関数 =====
+function collapseArticles(type, remainingArticles, expandedArticles, lessButtonContainer) {
+    const container = type === 'seo' ? elements.seoArticlesContainer : elements.blogArticlesContainer;
+    
+    // 展開された記事を削除
+    expandedArticles.forEach(article => {
+        article.remove();
+    });
+    
+    // Lessボタンを削除
+    lessButtonContainer.remove();
+    
+    // Moreボタンを再追加
+    const moreButton = createMoreButton(type, remainingArticles);
+    container.appendChild(moreButton);
 }
 
 // ===== FAQ表示関数 =====
