@@ -148,6 +148,14 @@ async function initializeWebsite() {
                 "client": "my-best.com"
             },
             {
+                "title": "朝までぐっすり！失敗しない枕の選び方完全ガイド【首・肩こり解消】",
+                "url": "https://minerva-sleep.jp/blogs/pillow/20250729",
+                "description": "首・肩こり解消のための枕選びの完全ガイド。高さ・サイズ・素材・形状・硬さの5つのポイントを詳しく解説",
+                "date": "2025-07-29",
+                "tags": ["枕", "睡眠", "首こり", "肩こり", "寝具", "健康"],
+                "client": "Minerva Sleep"
+            },
+            {
                 "title": "失敗しないマットレスの選び方｜体型・悩み別に解説",
                 "url": "https://minerva-sleep.jp/blogs/mattress/20250726",
                 "description": "Minerva Sleepコラム記事",
