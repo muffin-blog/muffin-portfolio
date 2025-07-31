@@ -145,7 +145,8 @@ async function initializeWebsite() {
                 "description": "モバイル・通信サービス記事",
                 "date": "2024-07-15",
                 "tags": ["UQモバイル", "海外利用", "国際ローミング", "格安SIM", "通信"],
-                "client": "my-best.com"
+                "client": "my-best.com",
+                "thumbnail": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=300&h=200&fit=crop&auto=format"
             },
             {
                 "title": "夏の睡眠適温は26°C！朝までぐっすり眠れる快眠テクニック",
@@ -153,7 +154,8 @@ async function initializeWebsite() {
                 "description": "夏の快適な睡眠環境を作るための実践的なアドバイス。室温26-27℃、湿度50-60%の重要性とエアコンの効果的な使用方法を解説",
                 "date": "2025-07-31",
                 "tags": ["夏", "睡眠", "快眠", "エアコン", "室温", "健康"],
-                "client": "Minerva Sleep"
+                "client": "Minerva Sleep",
+                "thumbnail": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=300&h=200&fit=crop&auto=format"
             },
             {
                 "title": "朝までぐっすり！失敗しない枕の選び方完全ガイド【首・肩こり解消】",
@@ -161,7 +163,8 @@ async function initializeWebsite() {
                 "description": "首・肩こり解消のための枕選びの完全ガイド。高さ・サイズ・素材・形状・硬さの5つのポイントを詳しく解説",
                 "date": "2025-07-29",
                 "tags": ["枕", "睡眠", "首こり", "肩こり", "寝具", "健康"],
-                "client": "Minerva Sleep"
+                "client": "Minerva Sleep",
+                "thumbnail": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=300&h=200&fit=crop&auto=format"
             },
             {
                 "title": "失敗しないマットレスの選び方｜体型・悩み別に解説",
@@ -169,7 +172,8 @@ async function initializeWebsite() {
                 "description": "Minerva Sleepコラム記事",
                 "date": "2025-07-26",
                 "tags": ["マットレス", "睡眠", "健康", "寝具", "体型別"],
-                "client": "Minerva Sleep"
+                "client": "Minerva Sleep",
+                "thumbnail": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=300&h=200&fit=crop&auto=format"
             },
             {
                 "title": "ダイエット中の停滞期を抜ける前兆サインと早く終わらせる7つのコツ",
@@ -177,7 +181,8 @@ async function initializeWebsite() {
                 "description": "ダイエット・美容コラム記事",
                 "date": "2024-07-01",
                 "tags": ["ダイエット", "停滞期", "健康", "美容", "体重管理"],
-                "client": "バウムクリニック"
+                "client": "バウムクリニック",
+                "thumbnail": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&auto=format"
             },
             {
                 "title": "正しい食事制限で健康的なダイエット！リバウンドを防ぐ食事法",
@@ -185,7 +190,8 @@ async function initializeWebsite() {
                 "description": "ダイエット・美容コラム記事",
                 "date": "2024-06-15",
                 "tags": ["ダイエット", "食事制限", "健康", "美容", "リバウンド防止", "栄養"],
-                "client": "バウムクリニック"
+                "client": "バウムクリニック",
+                "thumbnail": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=300&h=200&fit=crop&auto=format"
             },
             {
                 "title": "ちょっと食べただけですぐ太るあなたに役立つ７つの理由と４つの対策",
@@ -193,7 +199,8 @@ async function initializeWebsite() {
                 "description": "ダイエット・美容コラム記事",
                 "date": "2024-06-02",
                 "tags": ["ダイエット", "体重管理", "健康", "美容", "代謝", "食事"],
-                "client": "バウムクリニック"
+                "client": "バウムクリニック",
+                "thumbnail": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300&h=200&fit=crop&auto=format"
             },
             {
                 "title": "空腹のピークを過ぎると食欲がおさまるメカニズムと体への７つの影響",
@@ -201,7 +208,8 @@ async function initializeWebsite() {
                 "description": "ダイエット・美容コラム記事",
                 "date": "2024-05-20",
                 "tags": ["ダイエット", "空腹", "食欲", "健康"],
-                "client": "バウムクリニック"
+                "client": "バウムクリニック",
+                "thumbnail": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=300&h=200&fit=crop&auto=format"
             }
         ];
 
@@ -211,35 +219,40 @@ async function initializeWebsite() {
                 "url": "https://muffin-blog.com/audible-money-study/",
                 "description": "Audible活用・お金の勉強に関する記事",
                 "date": "2025-05-15",
-                "tags": ["Audible", "オーディオブック", "お金", "投資", "節約", "自己啓発"]
+                "tags": ["Audible", "オーディオブック", "お金", "投資", "節約", "自己啓発"],
+                "thumbnail": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=300&h=200&fit=crop&auto=format"
             },
             {
                 "title": "Audibleの休会制度を完全ガイド！メリットや注意点、退会との違いを丁寧に解説",
                 "url": "https://muffin-blog.com/audible-recess/",
                 "description": "Audibleサービス解説記事",
                 "date": "2025-06-10",
-                "tags": ["Audible", "オーディオブック", "サブスクリプション", "休会制度", "サービス解説"]
+                "tags": ["Audible", "オーディオブック", "サブスクリプション", "休会制度", "サービス解説"],
+                "thumbnail": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=200&fit=crop&auto=format"
             },
             {
                 "title": "安心してAudibleを始めるために事前にチェック！退会・解約方法を徹底解説",
                 "url": "https://muffin-blog.com/audible-cancel/",
                 "description": "Audibleサービス解説記事",
                 "date": "2025-06-20",
-                "tags": ["Audible", "オーディオブック", "解約方法", "退会手続き", "サービス解説"]
+                "tags": ["Audible", "オーディオブック", "解約方法", "退会手続き", "サービス解説"],
+                "thumbnail": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=300&h=200&fit=crop&auto=format"
             },
             {
                 "title": "世界一分かりやすいAudible（オーディブル）の始め方！アプリの使い方を完全ガイド",
                 "url": "https://muffin-blog.com/start-guide-for-audible/",
                 "description": "Audible入門ガイド記事",
                 "date": "2025-07-01",
-                "tags": ["Audible", "オーディオブック", "始め方", "アプリ使用法", "入門ガイド"]
+                "tags": ["Audible", "オーディオブック", "始め方", "アプリ使用法", "入門ガイド"],
+                "thumbnail": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=300&h=200&fit=crop&auto=format"
             },
             {
                 "title": "「耳活で人生は変わる！」1年後の自分が楽になるたった一つの習慣",
                 "url": "https://muffin-blog.com/ears-activity/",
                 "description": "耳活・自己啓発記事",
                 "date": "2025-07-10",
-                "tags": ["耳活", "Audible", "自己啓発", "習慣化", "学習法"]
+                "tags": ["耳活", "Audible", "自己啓発", "習慣化", "学習法"],
+                "thumbnail": "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=300&h=200&fit=crop&auto=format"
             }
         ];
 
@@ -433,18 +446,22 @@ function createSeoArticleCard(article, index) {
     const formattedDate = formatDate(article.date);
     
     card.innerHTML = `
-        <h3>${article.title}</h3>
-        <div class="article-meta">
-            <span class="article-date">${formattedDate}</span>
-            <span class="article-client">執筆先: ${article.client}</span>
+        <div class="article-thumbnail">
+            <img src="${article.thumbnail}" alt="${article.title}" loading="lazy">
         </div>
-        <p>${article.description}</p>
-        <div class="article-tags">
-            ${article.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+        <div class="article-content">
+            <h3>${article.title}</h3>
+            <div class="article-meta">
+                <span class="article-date">${formattedDate}</span>
+            </div>
+            <p>${article.description}</p>
+            <div class="article-tags">
+                ${article.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+            </div>
+            <a href="${article.url}" target="_blank" rel="noopener noreferrer" class="read-more">
+                記事を読む
+            </a>
         </div>
-        <a href="${article.url}" target="_blank" rel="noopener noreferrer" class="read-more">
-            記事を読む
-        </a>
     `;
     
     return card;
@@ -459,17 +476,22 @@ function createBlogArticleCard(article, index) {
     const formattedDate = formatDate(article.date);
     
     card.innerHTML = `
-        <h3>${article.title}</h3>
-        <div class="article-meta">
-            <span class="article-date">${formattedDate}</span>
+        <div class="article-thumbnail">
+            <img src="${article.thumbnail}" alt="${article.title}" loading="lazy">
         </div>
-        <p>${article.description}</p>
-        <div class="article-tags">
-            ${article.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+        <div class="article-content">
+            <h3>${article.title}</h3>
+            <div class="article-meta">
+                <span class="article-date">${formattedDate}</span>
+            </div>
+            <p>${article.description}</p>
+            <div class="article-tags">
+                ${article.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+            </div>
+            <a href="${article.url}" target="_blank" rel="noopener noreferrer" class="read-more">
+                記事を読む
+            </a>
         </div>
-        <a href="${article.url}" target="_blank" rel="noopener noreferrer" class="read-more">
-            記事を読む
-        </a>
     `;
     
     return card;
