@@ -138,7 +138,7 @@ async function initializeWebsite() {
         };
 
         // SEO記事（外部サイト向け執筆）とブログ記事（自分のブログ）に分類
-        seoArticles = [
+        let seoArticlesRaw = [
             {
                 "title": "UQモバイルは海外でも使える！利用方法や料金について徹底解説",
                 "url": "https://my-best.com/articles/550",
@@ -205,7 +205,7 @@ async function initializeWebsite() {
             }
         ];
 
-        blogArticles = [
+        let blogArticlesRaw = [
             {
                 "title": "Audibleでお金の勉強！これから貯金・節約・投資を学びたい人におすすめの書籍6選",
                 "url": "https://muffin-blog.com/audible-money-study/",
@@ -242,6 +242,10 @@ async function initializeWebsite() {
                 "tags": ["耳活", "Audible", "自己啓発", "習慣化", "学習法"]
             }
         ];
+
+        // 記事を日付順（新しい順）にソート
+        seoArticles = seoArticlesRaw.sort((a, b) => new Date(b.date) - new Date(a.date));
+        blogArticles = blogArticlesRaw.sort((a, b) => new Date(b.date) - new Date(a.date));
 
         // 全記事からタグを収集
         [...seoArticles, ...blogArticles].forEach(article => {
@@ -382,10 +386,20 @@ function renderSeoArticles() {
     
     elements.seoArticlesContainer.innerHTML = '';
     
-    seoArticles.forEach((article, index) => {
+    // 初期表示は3記事のみ
+    const initialArticles = seoArticles.slice(0, 3);
+    const remainingArticles = seoArticles.slice(3);
+    
+    initialArticles.forEach((article, index) => {
         const articleCard = createSeoArticleCard(article, index);
         elements.seoArticlesContainer.appendChild(articleCard);
     });
+    
+    // 残りの記事がある場合はMoreボタンを追加
+    if (remainingArticles.length > 0) {
+        const moreButton = createMoreButton('seo', remainingArticles);
+        elements.seoArticlesContainer.appendChild(moreButton);
+    }
 }
 
 // ===== ブログ記事表示関数 =====
@@ -394,10 +408,20 @@ function renderBlogArticles() {
     
     elements.blogArticlesContainer.innerHTML = '';
     
-    blogArticles.forEach((article, index) => {
+    // 初期表示は3記事のみ
+    const initialArticles = blogArticles.slice(0, 3);
+    const remainingArticles = blogArticles.slice(3);
+    
+    initialArticles.forEach((article, index) => {
         const articleCard = createBlogArticleCard(article, index);
         elements.blogArticlesContainer.appendChild(articleCard);
     });
+    
+    // 残りの記事がある場合はMoreボタンを追加
+    if (remainingArticles.length > 0) {
+        const moreButton = createMoreButton('blog', remainingArticles);
+        elements.blogArticlesContainer.appendChild(moreButton);
+    }
 }
 
 // ===== SEO記事カード作成関数 =====
@@ -449,6 +473,67 @@ function createBlogArticleCard(article, index) {
     `;
     
     return card;
+}
+
+// ===== Moreボタン作成関数 =====
+function createMoreButton(type, remainingArticles) {
+    const buttonContainer = document.createElement('div');
+    buttonContainer.className = 'more-button-container';
+    buttonContainer.style.cssText = `
+        grid-column: 1 / -1;
+        text-align: center;
+        margin-top: var(--spacing-lg);
+    `;
+    
+    const moreButton = document.createElement('button');
+    moreButton.className = 'more-button';
+    moreButton.textContent = `More (${remainingArticles.length})`;
+    moreButton.style.cssText = `
+        background: var(--primary-color);
+        color: var(--bg-primary);
+        border: none;
+        padding: 12px 24px;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+    `;
+    
+    moreButton.addEventListener('mouseover', () => {
+        moreButton.style.background = 'var(--secondary-color)';
+        moreButton.style.transform = 'translateY(-2px)';
+        moreButton.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.2)';
+    });
+    
+    moreButton.addEventListener('mouseout', () => {
+        moreButton.style.background = 'var(--primary-color)';
+        moreButton.style.transform = 'translateY(0)';
+        moreButton.style.boxShadow = 'none';
+    });
+    
+    moreButton.addEventListener('click', () => {
+        expandArticles(type, remainingArticles, buttonContainer);
+    });
+    
+    buttonContainer.appendChild(moreButton);
+    return buttonContainer;
+}
+
+// ===== 記事展開関数 =====
+function expandArticles(type, remainingArticles, buttonContainer) {
+    const container = type === 'seo' ? elements.seoArticlesContainer : elements.blogArticlesContainer;
+    const createCard = type === 'seo' ? createSeoArticleCard : createBlogArticleCard;
+    
+    // Moreボタンを削除
+    buttonContainer.remove();
+    
+    // 残りの記事を追加
+    remainingArticles.forEach((article, index) => {
+        const articleCard = createCard(article, index + 3); // インデックスを調整
+        container.appendChild(articleCard);
+    });
 }
 
 // ===== FAQ表示関数 =====
