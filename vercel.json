@@ -1,8 +1,12 @@
 {
+  "version": 2,
+  "name": "muffin-portfolio-public",
+  "public": true,
   "cleanUrls": true,
   "trailingSlash": false,
-  "buildCommand": "echo 'Static site - no build needed'",
+  "buildCommand": "npm run build",
   "outputDirectory": "public",
+  "functions": {},
   "headers": [
     {
       "source": "/(.*)",
@@ -12,12 +16,8 @@
           "value": "nosniff"
         },
         {
-          "key": "X-Frame-Options",
-          "value": "DENY"
-        },
-        {
-          "key": "X-XSS-Protection",
-          "value": "1; mode=block"
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
         }
       ]
     }

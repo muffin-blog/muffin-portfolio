@@ -1,13 +1,18 @@
 {
-  "name": "portfolio",
+  "name": "muffin-portfolio",
   "version": "1.0.0",
-  "description": "スタイリッシュでモダンなポートフォリオサイトです。JSONデータを活用した動的コンテンツ表示機能を搭載しています。",
-  "main": "index.js",
+  "description": "AI×SEOライター「マフィン」のポートフォリオサイト",
+  "main": "public/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo 'Static site ready'",
+    "start": "echo 'Static site'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "keywords": ["portfolio", "seo", "ai", "writer"],
+  "author": "マフィン",
+  "license": "MIT",
+  "homepage": ".",
+  "repository": {
+    "type": "git",
+    "url": "."
+  }
 }
