@@ -491,6 +491,15 @@ h2 {
     flex: 1;
 }
 
+.article-meta-description {
+    color: var(--secondary-color);
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.7;
+    font-size: 12px;
+    flex: 1;
+    font-style: italic;
+}
+
 .article-tags {
     display: flex;
     flex-wrap: wrap;

@@ -143,6 +143,7 @@ async function initializeWebsite() {
                 "title": "UQモバイルは海外でも使える！利用方法や料金について徹底解説",
                 "url": "https://my-best.com/articles/550",
                 "description": "モバイル・通信サービス記事",
+                "metaDescription": "UQモバイルを海外で使う方法を詳しく解説。国際ローミング料金、設定方法、注意点まで格安SIMユーザー必見の完全ガイドです。",
                 "date": "2024-07-15",
                 "tags": ["UQモバイル", "海外利用", "国際ローミング", "格安SIM", "通信"],
                 "client": "my-best.com",
@@ -152,6 +153,7 @@ async function initializeWebsite() {
                 "title": "夏の睡眠適温は26°C！朝までぐっすり眠れる快眠テクニック",
                 "url": "https://minerva-sleep.jp/blogs/worries/20250829",
                 "description": "夏の快適な睡眠環境を作るための実践的なアドバイス。室温26-27℃、湿度50-60%の重要性とエアコンの効果的な使用方法を解説",
+                "metaDescription": "夏の夜も快適に眠るための室温・湿度管理法を専門家が解説。エアコン設定のコツや寝具選びまで、暑い夜の睡眠改善テクニックをご紹介。",
                 "date": "2025-07-31",
                 "tags": ["夏", "睡眠", "快眠", "エアコン", "室温", "健康"],
                 "client": "Minerva Sleep",
@@ -161,6 +163,7 @@ async function initializeWebsite() {
                 "title": "朝までぐっすり！失敗しない枕の選び方完全ガイド【首・肩こり解消】",
                 "url": "https://minerva-sleep.jp/blogs/pillow/20250729",
                 "description": "首・肩こり解消のための枕選びの完全ガイド。高さ・サイズ・素材・形状・硬さの5つのポイントを詳しく解説",
+                "metaDescription": "首・肩こりに悩む方必見！枕の正しい選び方を5つのポイントで解説。高さ調整のコツから素材別の特徴まで、快眠のための完全ガイド。",
                 "date": "2025-07-29",
                 "tags": ["枕", "睡眠", "首こり", "肩こり", "寝具", "健康"],
                 "client": "Minerva Sleep",
@@ -170,6 +173,7 @@ async function initializeWebsite() {
                 "title": "失敗しないマットレスの選び方｜体型・悩み別に解説",
                 "url": "https://minerva-sleep.jp/blogs/mattress/20250726",
                 "description": "Minerva Sleepコラム記事",
+                "metaDescription": "あなたの体型と睡眠の悩みに最適なマットレスの選び方を専門家が解説。硬さ・素材・サイズの選択基準から、腰痛・肩こり対策まで詳しくご紹介。",
                 "date": "2025-07-26",
                 "tags": ["マットレス", "睡眠", "健康", "寝具", "体型別"],
                 "client": "Minerva Sleep",
@@ -179,6 +183,7 @@ async function initializeWebsite() {
                 "title": "ダイエット中の停滞期を抜ける前兆サインと早く終わらせる7つのコツ",
                 "url": "https://baumclinic.jp/column/stagnationperiod-getout/",
                 "description": "ダイエット・美容コラム記事",
+                "metaDescription": "ダイエット停滞期の前兆サインを見逃さず、効果的に抜け出す7つの方法を医師が解説。体重が減らない理由と対策で理想の体型を目指しましょう。",
                 "date": "2024-07-01",
                 "tags": ["ダイエット", "停滞期", "健康", "美容", "体重管理"],
                 "client": "バウムクリニック",
@@ -188,6 +193,7 @@ async function initializeWebsite() {
                 "title": "正しい食事制限で健康的なダイエット！リバウンドを防ぐ食事法",
                 "url": "https://baumclinic.jp/column/diet-dietaryrestrictions/",
                 "description": "ダイエット・美容コラム記事",
+                "metaDescription": "リバウンドしない健康的なダイエットのための正しい食事制限方法を管理栄養士が解説。極端な食事制限を禁物にし、継続可能な食事法で理想の体型へ。",
                 "date": "2024-06-15",
                 "tags": ["ダイエット", "食事制限", "健康", "美容", "リバウンド防止", "栄養"],
                 "client": "バウムクリニック",
@@ -197,6 +203,7 @@ async function initializeWebsite() {
                 "title": "ちょっと食べただけですぐ太るあなたに役立つ７つの理由と４つの対策",
                 "url": "https://baumclinic.jp/column/gain-weight-quickly/",
                 "description": "ダイエット・美容コラム記事",
+                "metaDescription": "少し食べただけですぐ体重が増えてしまう原因7つと対策方法を医師が詳しく解説。代謝改善から食事のタイミングまで、太りやすい体質改善の秘訣。",
                 "date": "2024-06-02",
                 "tags": ["ダイエット", "体重管理", "健康", "美容", "代謝", "食事"],
                 "client": "バウムクリニック",
@@ -206,6 +213,7 @@ async function initializeWebsite() {
                 "title": "空腹のピークを過ぎると食欲がおさまるメカニズムと体への７つの影響",
                 "url": "https://baumclinic.jp/column/hunger-toopeak/",
                 "description": "ダイエット・美容コラム記事",
+                "metaDescription": "空腹のピークを過ぎると食欲がおさまるメカニズムと、体に与える7つの影響を医学的観点から解説。空腹時の正しい対処法と健康への影響を理解しましょう。",
                 "date": "2024-05-20",
                 "tags": ["ダイエット", "空腹", "食欲", "健康"],
                 "client": "バウムクリニック",
@@ -218,6 +226,7 @@ async function initializeWebsite() {
                 "title": "Audibleでお金の勉強！これから貯金・節約・投資を学びたい人におすすめの書籍6選",
                 "url": "https://muffin-blog.com/audible-money-study/",
                 "description": "Audible活用・お金の勉強に関する記事",
+                "metaDescription": "Audibleでお金の勉強を始めたい方必見！貯金・節約・投資の基礎から学べるおすすめオーディオブック6選を紹介。通勤時間を有効活用して金融リテラシーを身につけましょう。",
                 "date": "2025-05-15",
                 "tags": ["Audible", "オーディオブック", "お金", "投資", "節約", "自己啓発"],
                 "thumbnail": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=300&h=200&fit=crop&auto=format"
@@ -226,6 +235,7 @@ async function initializeWebsite() {
                 "title": "Audibleの休会制度を完全ガイド！メリットや注意点、退会との違いを丁寧に解説",
                 "url": "https://muffin-blog.com/audible-recess/",
                 "description": "Audibleサービス解説記事",
+                "metaDescription": "Audibleの休会制度を正しく理解して責明に活用！メリット・デメリット、退会との違い、手続き方法を細かく解説。一時的に休止したい方は必読です。",
                 "date": "2025-06-10",
                 "tags": ["Audible", "オーディオブック", "サブスクリプション", "休会制度", "サービス解説"],
                 "thumbnail": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=200&fit=crop&auto=format"
@@ -234,6 +244,7 @@ async function initializeWebsite() {
                 "title": "安心してAudibleを始めるために事前にチェック！退会・解約方法を徹底解説",
                 "url": "https://muffin-blog.com/audible-cancel/",
                 "description": "Audibleサービス解説記事",
+                "metaDescription": "Audibleを始める前に知っておきたい退会・解約方法をステップ別に解説。料金発生タイミングや注意点、モバイルアプリでの操作方法まで網羅した完全ガイドです。",
                 "date": "2025-06-20",
                 "tags": ["Audible", "オーディオブック", "解約方法", "退会手続き", "サービス解説"],
                 "thumbnail": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=300&h=200&fit=crop&auto=format"
@@ -242,6 +253,7 @@ async function initializeWebsite() {
                 "title": "世界一分かりやすいAudible（オーディブル）の始め方！アプリの使い方を完全ガイド",
                 "url": "https://muffin-blog.com/start-guide-for-audible/",
                 "description": "Audible入門ガイド記事",
+                "metaDescription": "Audible初心者必見！登録からアプリの基本操作まで、オーディブルの始め方をスクリーンショット付きでわかりやすく解説。ダウンロード方法や再生速度変更など便利機能も紹介。",
                 "date": "2025-07-01",
                 "tags": ["Audible", "オーディオブック", "始め方", "アプリ使用法", "入門ガイド"],
                 "thumbnail": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=300&h=200&fit=crop&auto=format"
@@ -250,6 +262,7 @@ async function initializeWebsite() {
                 "title": "「耳活で人生は変わる！」1年後の自分が楽になるたった一つの習慣",
                 "url": "https://muffin-blog.com/ears-activity/",
                 "description": "耳活・自己啓発記事",
+                "metaDescription": "耳活(オーディオブック習慣)で人生が変わる理由と継続のコツを体験談で解説。通勤時間やスキマ時間を活用して自己啓発を習慣化し、将来の自分を楽にする方法をご紹介。",
                 "date": "2025-07-10",
                 "tags": ["耳活", "Audible", "自己啓発", "習慣化", "学習法"],
                 "thumbnail": "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=300&h=200&fit=crop&auto=format"
@@ -454,7 +467,7 @@ function createSeoArticleCard(article, index) {
             <div class="article-meta">
                 <span class="article-date">${formattedDate}</span>
             </div>
-            <p>${article.description}</p>
+            ${article.metaDescription ? `<p class="article-meta-description">${article.metaDescription}</p>` : `<p>${article.description}</p>`}
             <div class="article-tags">
                 ${article.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
             </div>
@@ -484,7 +497,7 @@ function createBlogArticleCard(article, index) {
             <div class="article-meta">
                 <span class="article-date">${formattedDate}</span>
             </div>
-            <p>${article.description}</p>
+            ${article.metaDescription ? `<p class="article-meta-description">${article.metaDescription}</p>` : `<p>${article.description}</p>`}
             <div class="article-tags">
                 ${article.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
             </div>
