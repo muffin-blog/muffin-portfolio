@@ -47,10 +47,16 @@ portfolio/
 
 ## メンテナンス対応
 ユーザーが新記事を追加する際は：
-1. `content/articles/articles.json` を更新
-2. 適切な配列（seoArticles or blogArticles）に追加
-3. git commit & vercel deploy
-4. URL動作確認
+1. **サイトへの反映:**
+   - `content/articles/articles.json` を更新
+   - 適切な配列（seoArticles or blogArticles）に追加
+   - git commit & vercel deploy
+   - URL動作確認
+
+2. **既存記事ファイルの編集:**
+   - ユーザーが指定した既存の記事ファイルの中身を編集
+   - 新しい記事の情報や内容を既存ファイルに追加・更新
+   - 記事ファイルも同時にgit commit
 
 ## 過去の主要変更
 - パスワード保護解除でパブリックアクセス実現
