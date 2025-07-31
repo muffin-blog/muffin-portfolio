@@ -15,19 +15,24 @@
 
 ```
 portfolio/
-├── assets/
-│   ├── css/
-│   │   └── style.css          # メインスタイルシート
-│   ├── images/
-│   │   └── profile/
-│   │       └── profile.jpg    # プロフィール画像
-│   └── js/
-│       └── script.js          # メイン機能スクリプト
-├── content/
-│   ├── profile.json           # プロフィール情報
-│   └── articles/
-│       └── articles.json      # 記事情報
-├── index.html                 # メインHTMLファイル
+├── public/                    # Vercelデプロイ用メインディレクトリ
+│   ├── assets/
+│   │   ├── css/
+│   │   │   └── style.css      # メインスタイルシート
+│   │   ├── images/
+│   │   │   └── profile/
+│   │   │       └── profile.jpg # プロフィール画像
+│   │   └── js/
+│   │       └── script.js      # メイン機能スクリプト
+│   ├── content/
+│   │   ├── profile.json       # プロフィール情報
+│   │   └── articles/
+│   │       └── articles.json  # 記事情報
+│   └── index.html             # メインHTMLファイル
+├── CLAUDE.md                  # Claude Code メモリーファイル
+├── MAINTENANCE.md             # メンテナンス手順
+├── package.json               # プロジェクト設定
+├── vercel.json               # Vercel設定
 └── README.md
 ```
 
@@ -40,7 +45,7 @@ portfolio/
 
 ### プロフィール情報の更新
 
-`content/profile.json` を編集してプロフィール情報を更新：
+`public/content/profile.json` を編集してプロフィール情報を更新：
 
 ```json
 {
@@ -60,7 +65,7 @@ portfolio/
 
 ### 記事の追加・更新
 
-`content/articles/articles.json` の `articles` 配列に新しい記事を追加：
+`public/content/articles/articles.json` の `articles` 配列に新しい記事を追加：
 
 ```json
 {
@@ -78,14 +83,14 @@ portfolio/
 
 ### プロフィール画像の更新
 
-1. 新しい画像を `assets/images/profile/` フォルダに配置
-2. `content/profile.json` の `profileImage` パスを更新
+1. 新しい画像を `public/assets/images/profile/` フォルダに配置
+2. `public/content/profile.json` の `profileImage` パスを更新
 
 ## 🎨 カスタマイズ
 
 ### カラーテーマの変更
 
-`assets/css/style.css` の `:root` セクションでカラー変数を編集：
+`public/assets/css/style.css` の `:root` セクションでカラー変数を編集：
 
 ```css
 :root {
@@ -128,7 +133,7 @@ CSSファイル内の各セクション（プロフィール、記事カード�
 
 ### 記事の追加時の手順
 
-1. `content/articles/articles.json` に記事情報を追加
+1. `public/content/articles/articles.json` に記事情報を追加
 2. ブラウザでサイトをリロードして表示確認
 3. 新しいタグが追加された場合、フィルターボタンが自動生成されます
 
